@@ -37,9 +37,13 @@ public class Methods {
 
     public void isElementHighlighted(String selector) {
         WebElement locator = driver.findElement(By.cssSelector(selector));
-        
+
         actions.moveToElement(locator).build().perform();
 
+    }
+
+    public void getUrlStatus() {
+        driver.
     }
 
 }
